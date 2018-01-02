@@ -60,4 +60,10 @@ Eq(sin(theta)/cos(theta), y/x)
 
 ## Further documentation
 Print each function's docstring for further documentation.
-`print(both_sides.__doc__)``
+`print(both_sides.__doc__)`
+
+## Disclaimer
+This project is not directly affiliated with Sympy.
+
+## License
+New BSD (in LICENSE file), compatible with Sympy.
