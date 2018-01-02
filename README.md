@@ -15,10 +15,10 @@ Simply put the module in your working directory or add it to your `$PYTHONPATH`.
 
 ## Rules implemented for both_sides
 * Equality: any function applied to both sides preserves equality.
-* Addition to inequalities: $ x>y \implies x + c > y + c $, where $c \in \mathbb R$.
-* Multiplication to inequalities: $x \le y \implies xc \le yc$ if $c>0$ and $xc \ge yc$ if $c<0$.
-* Reciprocal of an inequality: $ x > y \implies 1/x < 1/y$ if $x>0,y>0$
- or $x<0,y<0$, and $1/x>1/y$ if $x>0,y<0$ or $x<0,y>0$
+* Addition to inequalities:  `x > y ⇒  x+c > y+c`, where `c` is real.
+* Multiplication to inequalities: `x ≤ y ⇒  xc ≤ yc` if `c>0` and `xc ≥yc` if `c<0`.
+* Reciprocal of an inequality: `x > y ⇒  1/x < 1/y` if `x>0`, `y>0`
+ or `x<0`, `y<0`, and `1/x > 1/y` if `x>0`,`y<0` or `x<0`, `y>0`
 * Subtraction and division of a quantity are achieved with addition of the inverse
  and multiplication of the reciprocal.
 
